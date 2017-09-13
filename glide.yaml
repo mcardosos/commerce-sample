@@ -1,0 +1,11 @@
+package: github.com/Azure-Samples/commerce
+import:
+- package: github.com/Azure/go-autorest
+  subpackages:
+  - autorest
+  - autorest/azure
+  - autorest/utils
+- package: github.com/mcardosos/azure-sdk-for-go
+  version: v11
+  subpackages:
+  - arm/commerce

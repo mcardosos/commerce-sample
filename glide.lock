@@ -1,0 +1,23 @@
+hash: 8d6ce3f8c4572bb7d8a0dc7982aa65934f4dca5767d2b3cd2af888402a0a285c
+updated: 2017-09-12T17:55:20.5346921-07:00
+imports:
+- name: github.com/Azure/go-autorest
+  version: 48a8154950f853ae1f2a9c409e0eb1fb71119bc8
+  subpackages:
+  - autorest
+  - autorest/adal
+  - autorest/azure
+  - autorest/date
+  - autorest/to
+  - autorest/utils
+- name: github.com/dgrijalva/jwt-go
+  version: a539ee1a749a2b895533f979515ac7e6e0f5b650
+- name: github.com/mcardosos/azure-sdk-for-go
+  version: 3ce52e7a55ec55dd9f38104b55761e5611bed25e
+  subpackages:
+  - arm/commerce
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/shopspring/decimal
+  version: 3c692774ac4c47c7a296ec96e553719dba1a68fc
+testImports: []
